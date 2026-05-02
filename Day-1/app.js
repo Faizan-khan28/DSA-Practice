@@ -8,7 +8,13 @@
 
 let a = 10;
 let b = 20;
-let temp = a;
-a = b;
-b = temp;
-console.log(a,b);
+// 1st method
+// let temp = a;
+// a = b;
+// b = temp;
+// console.log(a,b);
+// 2 method
+a = a + b;
+b = a - b
+a = a - b
+console.log(a,b)
