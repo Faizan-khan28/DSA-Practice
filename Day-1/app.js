@@ -14,7 +14,10 @@ let b = 20;
 // b = temp;
 // console.log(a,b);
 // 2 method
-a = a + b;
-b = a - b
-a = a - b
-console.log(a,b)
+// a = a + b;
+// b = a - b
+// a = a - b
+// console.log(a,b)
+// 3 method
+[a,b] = [b,a]
+console.log(a,b);
