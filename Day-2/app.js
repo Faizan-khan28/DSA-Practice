@@ -44,3 +44,8 @@
 // // Compound Interst Formula CP = A - P
 
 // console.log(p*Math.pow(1 + r/100,t) - p);
+
+// Genrate OTP
+// let phNum = Number(prompt("enter Mobile Number"))
+// let OTP = Math.floor(Math.random() * 9000 + 1000) 
+// console.log(OTP)
