@@ -1,2 +1,37 @@
 // math ceil
-console.log(Math.ceil(10.4))
+// console.log(Math.ceil(10.4))
+// ans is 11 ceil means top
+// math floor
+// console.log(Math.floor(10.8));
+// ans is 10 floor means bottom
+// math round
+// console.log(Math.round(10.4));
+// its works btwn ceil and floor if pass value 10.5 its behave like ceil and if we pass value 10.4 its behave like floor
+// math abs
+// console.log(Math.abs(-8));
+// when we gave negative value its gave us positive value
+// math trunc
+// console.log(Math.trunc(10.48483838383));
+// its converts decimal value into a normal integar value like 10 
+// math power
+// console.log(Math.pow(5,2))
+// its returns power of a number like 25 
+// math sqrt 
+// console.log(Math.sqrt(36));
+// its return sqare root value like 6
+// math cbrt
+// console.log(Math.cbrt(8));
+// its return qube root like 2
+// math max
+// console.log(Math.max(12,34,56,98));
+// it return max value like 98
+// console.log(Math.min(12,34,56,98));
+// it return min value like 12
+// math random
+// console.log(Math.random());
+// its returns random values from 1 to 0 
+// to fixed
+// let a = 10.43939
+// console.log(a.toFixed(2));
+// its returns fixed value that we gave like 10.43
+
