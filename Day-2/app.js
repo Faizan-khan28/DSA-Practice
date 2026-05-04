@@ -35,3 +35,12 @@
 // console.log(a.toFixed(2));
 // its returns fixed value that we gave like 10.43
 
+// compound interest 
+// let p = Number(prompt("enter your Principle"))
+// let r = Number(prompt("enter your rate"))
+// let t = Number(prompt("enter your time"))
+
+// // Amount formula is A = P * (1 + r/100)^t
+// // Compound Interst Formula CP = A - P
+
+// console.log(p*Math.pow(1 + r/100,t) - p);
