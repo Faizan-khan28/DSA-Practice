@@ -65,3 +65,14 @@
 // Circumfrance of Circle
 // let r = Number(prompt("enter your Number"))
 // console.log(2*Math.PI * r);
+
+let a = Number(prompt("enter first number"))
+let b = Number(prompt("enter second number"))
+let c = Number(prompt("enter third number"))
+if (a>b) {
+    console.log(a+"a is greatest");
+}  if (b>c ) {
+    console.log(b+ "b is greatest");
+} else {
+    console.log( c + "c is greatest");
+}
