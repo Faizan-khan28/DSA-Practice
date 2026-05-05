@@ -51,13 +51,17 @@
 // console.log(OTP)
 
 // area of tringle by herons formula
-let a = Number(prompt("enter first number"))
-let b = Number(prompt("enter second number"))
-let c = Number(prompt("enter third number"))
+// let a = Number(prompt("enter first number"))
+// let b = Number(prompt("enter second number"))
+// let c = Number(prompt("enter third number"))
 
-if(a+b <=c || a+c <=b || a+c <= a) {
-    console.log("not possible")
-}else {
-    let s = (a + b + c)/2
-    console.log(Math.sqrt(s*(s-a)*(s-b)*(s-c)));
-}
+// if(a+b <=c || a+c <=b || a+c <= a) {
+//     console.log("not possible")
+// }else {
+//     let s = (a + b + c)/2
+//     console.log(Math.sqrt(s*(s-a)*(s-b)*(s-c)));
+// }
+
+// Circumfrance of Circle
+// let r = Number(prompt("enter your Number"))
+// console.log(2*Math.PI);
