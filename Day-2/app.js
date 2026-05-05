@@ -64,4 +64,4 @@
 
 // Circumfrance of Circle
 // let r = Number(prompt("enter your Number"))
-// console.log(2*Math.PI);
+// console.log(2*Math.PI * r);
