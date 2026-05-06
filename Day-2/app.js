@@ -66,13 +66,28 @@
 // let r = Number(prompt("enter your Number"))
 // console.log(2*Math.PI * r);
 
-let a = Number(prompt("enter first number"))
-let b = Number(prompt("enter second number"))
-let c = Number(prompt("enter third number"))
-if (a>b) {
-    console.log(a+"a is greatest");
-}  if (b>c ) {
-    console.log(b+ "b is greatest");
+// let a = Number(prompt("enter first number"))
+// let b = Number(prompt("enter second number"))
+// let c = Number(prompt("enter third number"))
+// if (a>b) {
+//     console.log(a+"a is greatest");
+// }  if (b>c ) {
+//     console.log(b+ "b is greatest");
+// } else {
+//     console.log( c + "c is greatest");
+// }
+// Discount question
+let Amount = Number(prompt("Enter Amount"))
+
+if(Amount>=0 && Amount<= 5000) {
+    console.log(Amount);
+} else if (Amount > 5000 && Amount <=7000) {
+    console.log(Amount-(5*Amount)/100);
+}
+else if (Amount > 7000 && Amount<=9000) {
+    console.log(Amount-(10*Amount)/100);
+} else if (Amount > 9000) {
+    console.log(Amount-(20*Amount)/100);
 } else {
-    console.log( c + "c is greatest");
+    console.log("Invalid Condition");
 }
