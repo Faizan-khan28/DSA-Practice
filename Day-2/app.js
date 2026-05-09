@@ -77,17 +77,31 @@
 //     console.log( c + "c is greatest");
 // }
 // Discount question
-let Amount = Number(prompt("Enter Amount"))
+// let Amount = Number(prompt("Enter Amount"))
 
-if(Amount>=0 && Amount<= 5000) {
-    console.log(Amount);
-} else if (Amount > 5000 && Amount <=7000) {
-    console.log(Amount-(5*Amount)/100);
-}
-else if (Amount > 7000 && Amount<=9000) {
-    console.log(Amount-(10*Amount)/100);
-} else if (Amount > 9000) {
-    console.log(Amount-(20*Amount)/100);
-} else {
-    console.log("Invalid Condition");
+// if(Amount>=0 && Amount<= 5000) {
+//     console.log(Amount);
+// } else if (Amount > 5000 && Amount <=7000) {
+//     console.log(Amount-(5*Amount)/100);
+// }
+// else if (Amount > 7000 && Amount<=9000) {
+//     console.log(Amount-(10*Amount)/100);
+// } else if (Amount > 9000) {
+//     console.log(Amount-(20*Amount)/100);
+// } else {
+//     console.log("Invalid Condition");
+// }
+// electricity unit calculate
+
+let unit = Number(prompt("enter unit"))
+let amount = 0;
+
+if(unit>=0 && unit<=100) {
+   amount =  unit * 4.2
+}else if (unit > 100 && unit <= 200 ) {  
+    amount = (100 * 4.2) + (unit-100)*6
+}else if (unit > 200 && unit<=400) { 
+    amount = (100 * 4.2) + (100 * 6) + (unit-200)*8
+}else if (unit > 400) { /*500 */
+    amount = (100 * 4.2) + (100 * 6) + (200 * 8) + (unit-400)*13
 }
