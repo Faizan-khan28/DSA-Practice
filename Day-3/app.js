@@ -10,9 +10,30 @@
 //     console.log(n * i);
 // }
 
+// let n = Number(prompt("enter a number"))
+// let sum = 0;
+// for(let i = 1; i<=n; i++) {
+//     sum = sum + i
+// }
+// console.log(sum);
+
+// let n = Number(prompt("enter a number"))
+// let factorial = 1;
+// for(let i = 1; i<=n; i++) {
+//     factorial = factorial * i
+// }
+// console.log(factorial);
+
 let n = Number(prompt("enter a number"))
-let sum = 0;
+let odd = 0;
+let even = 0;
 for(let i = 1; i<=n; i++) {
-    sum = sum + i
+    if(i%2==0) {
+        even = even + i
+    }else {
+        odd = odd + i
+    }
 }
-console.log(sum);
+
+console.log(odd)
+console.log(even)
