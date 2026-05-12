@@ -24,16 +24,28 @@
 // }
 // console.log(factorial);
 
+// let n = Number(prompt("enter a number"))
+// let odd = 0;
+// let even = 0;
+// for(let i = 1; i<=n; i++) {
+//     if(i%2==0) {
+//         even = even + i
+//     }else {
+//         odd = odd + i
+//     }
+// }
+
+// console.log(odd)
+// console.log(even)
+
 let n = Number(prompt("enter a number"))
-let odd = 0;
-let even = 0;
-for(let i = 1; i<=n; i++) {
-    if(i%2==0) {
-        even = even + i
-    }else {
-        odd = odd + i
-    }
+let isPrime = true;
+for(let i=2; i<n; i++) {
+   if(n % 1 == 0) {
+      isPrime = false
+      break;
+   }
 }
 
-console.log(odd)
-console.log(even)
+if(isPrime) console.log("is prime number");
+else console.log("no prime Number");
