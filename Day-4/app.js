@@ -6,13 +6,24 @@
 //     i++
 // }
 
+// let n = Number(prompt("enter Number"))
+// let sum = 0;
+
+// while(n>0) {
+//     rem = n % 10
+//     sum = sum + rem
+//     n = Math.floor(n / 10)
+// }
+
+// console.log(sum);
+
 let n = Number(prompt("enter Number"))
-let sum = 0;
+let rev = 0;
 
 while(n>0) {
-    rem = n % 10
-    sum = sum + rem
-    n = Math.floor(n / 10)
+  let rem = n % 10
+  rev = rev * 10 + rem
+  n = Math.floor(n / 10)
 }
 
-console.log(sum);
+console.log(rev)
