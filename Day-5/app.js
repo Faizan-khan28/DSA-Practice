@@ -12,19 +12,55 @@
 // }while(userInput === "yes")
 
 //  question quess number
-let com = Math.floor(Math.random() * 100) + 1;
-let userInput;
+// let com = Math.floor(Math.random() * 100) + 1;
+// console.log(com);
+
+// let userInput;
+
+// do {
+//   userInput = Number(prompt("Enter your number b/w 1 to 100"));
+
+//   if (isNaN(userInput) || userInput < 1 || userInput > 100) {
+//     alert("Enter a valid number");
+//     continue;
+//   }
+
+//   if (userInput > com) {
+//     alert("Too High");
+//   } 
+//   else if (userInput < com) {
+//     alert("Too Low");
+//   } 
+//   else {
+//     alert("Congrats! Number is matched " + com);
+//   }
+
+// } while (userInput != com);
+
+let userInput; 
 do {
- userInput = Number(prompt("enter your number b/w 1 to 100"))
- if(userInput == NaN || userInput<0 || userInput>100) {
-    console.log("enter a valid number")
-    continue;
- }
- if(userInput > com) {
-   console.log("Too High");
- }else if (userInput < com) {
-   console.log("too Low");
- }else {
-   console.log("congrates num is matched" + com );
- }
-}while(userInput !== com)
+    let num1 = Number(prompt("enter a number 1"))
+    let num2 = Number(prompt("enter a number 2"))
+    let calu = prompt("enter operatot +,-,*,/") 
+    switch (calu) {
+        case "+":
+            console.log("result :"+ (num1 + num2));
+            break;
+        case "-":
+            console.log("result :"+ (num1 + num2));
+            break;
+        case "*":
+            console.log("result :"+ (num1 + num2));
+            break;
+        case "/":
+            if (num2 !== 0) {
+                console.log("result :"+(num1 * num2));
+            } else {
+                console.log("enter a vaild number");
+            }
+            break;   
+        default:
+            console.log("enter valid operatoor");
+    }
+    userInput = prompt("you want to continue calculation yes/no").toLowerCase()
+} while (userInput === "yes");
