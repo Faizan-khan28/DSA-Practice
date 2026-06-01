@@ -29,9 +29,18 @@ const promt = require("prompt-sync")()
 
 // print numbers in tringle
 
+// for(let i=1; i<=5; i++) {
+//     for(let j=1; j<=i; j++) {
+//        process.stdout.write(j + "")
+//     }
+//     console.log()
+// }
+
 for(let i=1; i<=5; i++) {
+    let char = 65;
     for(let j=1; j<=i; j++) {
-       process.stdout.write(j + "")
+      process.stdout.write(String.fromCharCode(char + ""))
+       char++;
     }
     console.log()
 }
