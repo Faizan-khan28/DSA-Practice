@@ -20,9 +20,22 @@
 //     console.log();
 // }
 
+// print x pattern
+// for(let i = 1; i<=5; i++) {
+//     for(let j = 1; j<=5; j++) {
+//         if(i == j || i + j == 5+1) {
+//             process.stdout.write("* ")
+//         }else {
+//             process.stdout.write(" ")
+//         }
+//     }
+//     console.log();
+// }
+
+// print v pattern 
 for(let i = 1; i<=5; i++) {
-    for(let j = 1; j<=5; j++) {
-        if(i == j || i+j == 5+1) {
+    for(let j = 1; j<=(5*2)-1; j++) {
+        if(i == j || i + j == 5 * 2) {
             process.stdout.write("* ")
         }else {
             process.stdout.write(" ")
