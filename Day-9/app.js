@@ -17,12 +17,29 @@
 // console.log("second max number : " + sMax);
 
 // reverse the array
-let arr = [1,2,3,4,5,6]
-let temp = new Array(arr.length)
-let i = 0;
-for(let j = arr.length-1; j>=0; j--) {
-    temp[i] = arr[j]
-    i++;
+
+// let arr = [1,2,3,4,5,6]
+// let temp = new Array(arr.length)
+// let i = 0;
+// for(let j = arr.length-1; j>=0; j--) {
+//     temp[i] = arr[j]
+//     i++;
+// }
+
+// console.log(temp);
+
+// number sepration 0 left side 1 right side
+
+let arr = [1,1,0,1,0,1,0,0,1]
+let i = 0 , j = 0;
+while(i < arr.length) {
+    if(arr[i] == 0) {
+        let temp = arr[i]
+        arr[i] = arr[j]
+        arr[j] = temp
+        j++
+    }
+    i++
 }
 
-console.log(temp);
+console.log(arr);
