@@ -30,16 +30,25 @@
 
 // number sepration 0 left side 1 right side
 
-let arr = [1,1,0,1,0,1,0,0,1]
-let i = 0 , j = 0;
-while(i < arr.length) {
-    if(arr[i] == 0) {
-        let temp = arr[i]
-        arr[i] = arr[j]
-        arr[j] = temp
-        j++
-    }
-    i++
-}
+// let arr = [1,1,0,1,0,1,0,0,1]
+// let i = 0 , j = 0;
+// while(i < arr.length) {
+//     if(arr[i] == 0) {
+//         let temp = arr[i]
+//         arr[i] = arr[j]
+//         arr[j] = temp
+//         j++
+//     }
+//     i++
+// }
 
+// console.log(arr);
+
+let arr = [1,2,3,4,5]
+let temp = arr[0]
+for(let i=0; i < arr.length-1; i++) {
+    arr[i] = arr[i + 1];
+}
+arr[arr.length-1] = temp
 console.log(arr);
+
