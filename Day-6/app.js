@@ -36,11 +36,25 @@ const promt = require("prompt-sync")()
 //     console.log()
 // }
 
-for(let i=1; i<=5; i++) {
-    let char = 65;
-    for(let j=1; j<=i; j++) {
-      process.stdout.write(String.fromCharCode(char + ""))
-       char++;
+// for(let i=1; i<=5; i++) {
+//     let char = 65;
+//     for(let j=1; j<=i; j++) {
+//       process.stdout.write(String.fromCharCode(char + ""))
+//        char++;
+//     }
+//     console.log()
+// }
+
+// mirror right angle tringle
+
+for(let i = 1; i<=5; i++) {
+
+    for(let j = 1; j<=5-i; j++) {
+        process.stdout.write("-")
+    }
+
+    for(let j = 1; j<=i; j++) {
+        process.stdout.write("*")
     }
     console.log()
 }

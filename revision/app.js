@@ -1,19 +1,52 @@
-let amount = Number(prompt("enter amount"))
-let payableAmount = null
-if(amount >= 5000 && amount < 7000) {
-    let dis = (amount * 5) / 100
-    console.log("you get 5% Discount");
-    payableAmount = amount - dis
-}else if(amount >= 7000 && amount < 9000) {
-    let dis = (amount * 10) / 100
-    console.log("you get 10% Discount");
-    payableAmount = amount - dis
-}else if (amount >= 9000) {
-    let dis = (amount * 20) / 100
-    console.log("you get 20% Discount");
-    payableAmount = amount - dis
-}else {
-    console.log("you get 0% Discount")
-}
+const promt = require("prompt-sync")();
 
-console.log(payableAmount);
+// for (let i = 5; i >= 1; i--) {
+//     for (let j = 1; j <= i; j++) {
+//         if(i == j || i + j) {
+//            process.stdout.write("* ")
+//         }
+//     }
+//     console.log()
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//     for (let k = 1; k <=5 - i; k++) {
+//         process.stdout.write(" ")
+//     }
+//     for (let j = 1; j <= i; j++) {
+//         process.stdout.write("*")
+//     }
+//     console.log()
+
+// }
+
+// for (let i = 1; i <= 5; i++) {
+
+//   for (let j = 1; j <= 5; j++) {
+//     if (i == j || i + j == 5 + 1) {
+//       process.stdout.write("*");
+//     }else {
+//         process.stdout.write(" ");
+//     }
+//   }
+//   console.log();
+// }
+
+
+// for (let i = 1; i <= 5; i++) {
+
+//   for (let k = 1; k <= 5 -i; k++) {
+//     process.stdout.write(" ");
+//   }
+
+//   for (let j = 1; j <=i ; j++) {
+//     process.stdout.write("* ");
+//   }
+
+//   console.log()
+  
+// }
+
+// V pattern
+
+

@@ -28,17 +28,17 @@
 
 // console.log(rev)
 
-let n = Number(prompt("enter Number"))
-let copy = n;
-let sq = n * n;
-let count = 0;
-while(n>0) {
-  count ++;
-  n = Math.floor(n/10)
-}
+// let n = Number(prompt("enter Number"))
+// let copy = n;
+// let sq = n * n;
+// let count = 0;
+// while(n>0) {
+//   count ++;
+//   n = Math.floor(n/10)
+// }
 
-if (sq%Math.pow(10,count) == copy) {
-    console.log("Automorphic number");
-} else {
-     console.log("not Automorphic number");
-}
+// if (sq%Math.pow(10,count) == copy) {
+//     console.log("Automorphic number");
+// } else {
+//     console.log("not Automorphic number");
+// }

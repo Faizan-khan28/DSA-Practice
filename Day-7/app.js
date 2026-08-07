@@ -33,9 +33,20 @@
 // }
 
 // print v pattern 
-for(let i = 1; i<=5; i++) {
-    for(let j = 1; j<=(5*2)-1; j++) {
-        if(i == j || i + j == 5 * 2) {
+// for(let i = 1; i<=5; i++) {
+//     for(let j = 1; j<=(5*2)-1; j++) {
+//         if(i == j || i + j == 5 * 2) {
+//             process.stdout.write("* ")
+//         }else {
+//             process.stdout.write(" ")
+//         }
+//     }
+//     console.log();
+// }
+
+for(let i = 1; i<=3; i++) {
+    for(let j = 1; j<=5; j++) {
+        if(i == j || i + j == 3 * 2) {
             process.stdout.write("* ")
         }else {
             process.stdout.write(" ")

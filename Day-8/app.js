@@ -20,12 +20,12 @@
 // console.log("sum =" + sum)
 
 // find max number in an array
-let arr = [10,5,20,8,30]
-let maxNum = arr[0];
-for(let i = 1; i < arr.length; i++) {
-    if(arr[i] > maxNum) {
-        maxNum = arr[i]
-    }
-}
+// let arr = [10,5,20,8,30]
+// let maxNum = arr[0];
+// for(let i = 1; i < arr.length; i++) {
+//     if(arr[i] > maxNum) {
+//         maxNum = arr[i]
+//     }
+// }
 
-console.log(maxNum);
+// console.log(maxNum);
